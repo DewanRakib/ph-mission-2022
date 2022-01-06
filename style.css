@@ -1,0 +1,70 @@
+body {
+  font-family: font-family: 'Poppins', sans-serif;
+}
+.green-color{
+  color: #01A66F;
+}
+
+h1{
+  font-size: 40px;
+  line-height: 30px;
+}
+.stay-focused{
+  font-family: 'Yeseva One', cursive;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.banner-area{
+  line-height: 30px;
+}
+.half-width{
+  width: 50%;
+  padding: 0%;
+}
+.half-width img{
+  width: 60%;
+  padding-left: 20%;
+}
+.anchor-btn{
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #FF5959;
+  text-decoration: none;
+  color: white;
+  
+}
+
+.mission-title{
+  text-align: center;
+}
+.illustrators{
+  width: 20%;
+}
+.middle-part-1{
+  width: 35%;
+}
+.middle-part-2{
+  width: 65%;
+}
+
+.coding-img{
+  width: 90%;
+}
+
+.project-img{
+  width: 90%;
+}
+
+.footer{
+  background-color: black;
+  text-align: center;
+  color: white;
+  padding: 10px 0px;
+}
+.footer-logo{
+  font-family: 'Lobster', cursive;
+  font-size: 30px
+}
