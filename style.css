@@ -1,70 +1,164 @@
 body {
-  font-family: font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
 }
-.green-color{
-  color: #01A66F;
+p {
+  font-size: 18px;
+}
+.green-color {
+  color: #01a66f;
 }
 
-h1{
-  font-size: 40px;
+h1 {
+  font-size: 50px;
   line-height: 30px;
 }
-.stay-focused{
-  font-family: 'Yeseva One', cursive;
+h2 {
+  font-size: 40px;
+  font-weight: bold;
 }
-.flex-container{
+h3 {
+  font-size: 35px;
+  line-height: 0.5em;
+}
+.stay-focused {
+  font-family: "Yeseva One", cursive;
+  border-left: 4px solid #ff5959;
+  padding: 0 3px;
+}
+.flex-container {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 }
-.banner-area{
+.banner-area {
   line-height: 30px;
+  margin-top: 30px;
 }
-.half-width{
+.half-width {
   width: 50%;
-  padding: 0%;
 }
-.half-width img{
-  width: 60%;
-  padding-left: 20%;
+
+.main-text {
+  padding: 20%;
+  padding-top: 60px;
 }
-.anchor-btn{
+
+.half-width img {
+  width: 70%;
+  padding-left: 10%;
+}
+.anchor-btn {
   padding: 10px 20px;
   border-radius: 5px;
-  background-color: #FF5959;
+  background-color: #ff5959;
   text-decoration: none;
   color: white;
-  
 }
 
-.mission-title{
+.btn-height{
+  margin: 50px 0;
+}
+
+.my-mission {
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.mission-item{
+  border-radius: 10px;
+  padding-right: 5px;
+  margin: 10px 20px;
+  padding: 25px;
+}
+
+#mission {
+  background-color: #eef6f7;
+
+}
+#vision {
+  background-color: #ffefef;
+
+}
+#goals {
+  background-color: #fff4d6;
+
+}
+
+.mission-title {
   text-align: center;
 }
-.illustrators{
-  width: 20%;
-}
-.middle-part-1{
+
+.middle-part-1 {
   width: 35%;
 }
-.middle-part-2{
+.middle-part-2 {
   width: 65%;
+  margin-left: 100px;
+}
+.middle-img {
+margin-left: 100px;
 }
 
-.coding-img{
-  width: 90%;
+}
+.develop-without-limits {
+
 }
 
-.project-img{
-  width: 90%;
+#team-img{
+  margin-right: 100px;
 }
-
-.footer{
+#limit-text{
+  margin-right: 100px;
+}
+.footer {
   background-color: black;
   text-align: center;
   color: white;
   padding: 10px 0px;
 }
-.footer-logo{
-  font-family: 'Lobster', cursive;
-  font-size: 30px
+.footer-logo {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+}
+
+.last-part {
+  text-align: center;
+}
+
+/* Subscribe Option */
+.subscribe {
+  margin-bottom: 20px;
+}
+.subscribe-text {
+}
+
+.form-name {
+  padding: 20px 25px;
+  border-radius: 5px;
+  border: 1px solid #cad3db;
+  width: 431px;
+  font-size: 18px;
+  color: #0f121f;
+}
+
+.form-email {
+  padding: 20px 25px;
+  border-radius: 5px;
+  border: 1px solid #cad3db;
+  width: 431px;
+  font-size: 18px;
+  color: #0f121f;
+}
+
+.form-btn {
+  background: #01a66f;
+  padding: 10px;
+  border: none;
+  width: 244px;
+  height: 65px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
 }
